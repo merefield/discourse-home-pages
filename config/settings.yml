@@ -1,0 +1,4 @@
+plugins:
+  home_pages_enabled:
+    default: true
+    client: true
