@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module ::DiscourseHomePages
-  class LandingPageController < ::ApplicationController
+  class SimplePageController < ::ApplicationController
     requires_plugin ::DiscourseHomePages::PLUGIN_NAME
     before_action :ensure_plugin_enabled
 
